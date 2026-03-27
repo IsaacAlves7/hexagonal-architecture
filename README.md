@@ -199,3 +199,5 @@ A arquitetura hexagonal, também conhecida como arquitetura de portas e adaptado
 Em conclusão, a Arquitetura Hexagonal é uma abordagem de design poderosa que aumenta a flexibilidade e a capacidade de manutenção dos sistemas de software. Ao separar a lógica de negócios principal das dependências externas, ele permite que os desenvolvedores se adaptem facilmente às mudanças e integrem novas tecnologias sem interromper o aplicativo principal. Essa arquitetura promove melhores práticas de teste e simplifica o processo de desenvolvimento. Seja aplicada a aplicativos da web, microsserviços ou integrações de sistemas legados, a Hexagonal Architecture oferece uma maneira estruturada de criar soluções resilientes e escaláveis que podem evoluir com as necessidades de usuários e empresas.
 
 <img width="1200" height="844" alt="0_nQxQ1mNs8cgAHHK1" src="https://github.com/user-attachments/assets/483b9254-07d8-409d-99e8-042a57a2d0ee" />
+
+HexagonalArchCQRSTDD
