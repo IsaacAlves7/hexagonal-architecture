@@ -5,7 +5,7 @@
 # 🛑 Hexagonal architecture (Ports & Adapters)
 <img src="https://img.shields.io/badge/Spring_Boot-3.10.7-limegreen?style=flat&logo=Spring&logoColor=white"> <img src="https://img.shields.io/badge/Kotlin-16-indigo?style=flat&logo=Kotlin&logoColor=white">  <img src="https://img.shields.io/badge/.NET-10-indigo?style=flat&logo=.NET&logoColor=white"> <img src="https://img.shields.io/badge/Node.js-16.17.0-339933?style=flat&logo=Node.js&logoColor=white"> <img src="https://img.shields.io/badge/RabbitMQ-16-orange?style=flat&logo=RabbitMQ&logoColor=white"> <img src="https://img.shields.io/badge/PostgreSQL-16.17-blue?style=flat&logo=PostgreSQL&logoColor=white"> <img src="https://img.shields.io/badge/MongoDB-16-lime?style=flat&logo=MongoDB&logoColor=white">
 
-<img src="https://github.com/IsaacAlves7/DevSecOps/assets/61624336/7c9bb501-d7cd-4b94-88c1-ae67cd8e07f8" align="right" height="77">
+<img src="https://github.com/user-attachments/assets/cf1c6771-55e1-4999-825e-c8d3ace2a1ad" align="right" height="77">
 
 A **arquitetura hexagonal** é um design de software, também conhecida como Arquitetura de **Portas e Adaptadores (Ports and Adapters)**, na qual é uma abordagem de design que promove a separação clara de preocupações e a independência da lógica central da aplicação em relação aos detalhes técnicos e de infraestrutura (camada de negócios e a infraestrutura), como banco de dados, facilitando a manutenção e evolução do sistema. É uma abordagem de design de sistema destinada a desacoplar a lógica de negócios principal de um software de suas interações externas. 
 
