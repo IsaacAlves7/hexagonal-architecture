@@ -1,4 +1,4 @@
-<a href="https://github.com/IsaacAlves7/hexagonal-architecture"><img src="https://github.com/user-attachments/assets/cdffacc8-99b6-4ac1-9354-bb0dd973ad6b"></a>
+<a href="https://github.com/IsaacAlves7/hexagonal-architecture"><img src="https://github.com/user-attachments/assets/58aea475-a132-4824-bbc9-68a95e7650d6"></a>
 
 > Versículo chave: "Consagre ao Senhor tudo o que você faz, e os seus planos serão bem-sucedidos." - Provérbios 16:3
 
