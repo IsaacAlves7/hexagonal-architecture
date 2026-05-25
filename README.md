@@ -187,17 +187,8 @@ A arquitetura hexagonal, também conhecida como arquitetura de portas e adaptado
 
 - **Epic Systems**: A Epic usa a Hexagonal Architecture para desacoplar seu sistema de gerenciamento clínico de vários sistemas externos (como laboratórios, farmácias e outros prestadores de serviços de saúde). Isso garante que as mudanças nos sistemas externos não interrompam as principais funcionalidades de gerenciamento de integridade.
 
-<table>
-	<tr>
-		<td><img height="879" alt="Architecture" src="https://github.com/user-attachments/assets/700cc7a0-1977-43fd-9b1a-626cde1ddba7" /></td>
-		<td><img height="879" alt="Architecture" src="https://github.com/user-attachments/assets/e78463f5-0a30-4b92-a9a6-6831c5582098" /></td>
-		<td><img height="879" alt="Architecture" src="https://github.com/user-attachments/assets/bc7c8b07-3835-489e-9c1f-7489f41d462f" /></td>
-		<td><img height="879" alt="Architecture" src="https://github.com/user-attachments/assets/bba31259-d365-49be-b4ea-d4e79c02bdf0" /></td>
-	</tr>
-</table>
+<img width="1400" height="985" alt="0_0E7BeQX8VXDT21Ix" src="https://github.com/user-attachments/assets/76c0faab-9403-402c-9695-dcc0e00194aa" />
 
 Em conclusão, a Arquitetura Hexagonal é uma abordagem de design poderosa que aumenta a flexibilidade e a capacidade de manutenção dos sistemas de software. Ao separar a lógica de negócios principal das dependências externas, ele permite que os desenvolvedores se adaptem facilmente às mudanças e integrem novas tecnologias sem interromper o aplicativo principal. Essa arquitetura promove melhores práticas de teste e simplifica o processo de desenvolvimento. Seja aplicada a aplicativos da web, microsserviços ou integrações de sistemas legados, a Hexagonal Architecture oferece uma maneira estruturada de criar soluções resilientes e escaláveis que podem evoluir com as necessidades de usuários e empresas.
-
-<img width="1200" height="844" alt="0_nQxQ1mNs8cgAHHK1" src="https://github.com/user-attachments/assets/483b9254-07d8-409d-99e8-042a57a2d0ee" />
 
 HexagonalArchCQRSTDD
