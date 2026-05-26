@@ -79,8 +79,6 @@ A arquitetura hexagonal desempenha um papel significativo no projeto do sistema 
 
 A arquitetura hexagonal, também conhecida como arquitetura de portas e adaptadores, consiste em vários componentes-chave que trabalham juntos para criar um sistema flexível, desacoplado e sustentável. Aqui estão os principais componentes da Arquitetura Hexagonal:
 
-<img width="1100" height="752" alt="0_IL8vujFMMgXa0Hsa" src="https://github.com/user-attachments/assets/62599d58-9641-4213-a3dd-8c68d6b98718" />
-
 1. **Entidades** (Core Business Logic): No coração da Arquitetura Hexagonal estão as Entidades, que representam a lógica de negócios principal e as regras do aplicativo. Essas entidades são completamente independentes de sistemas externos e permanecem isoladas de preocupações como bancos de dados ou interfaces de usuário. O objetivo é garantir que a lógica de negócios seja encapsulada e possa operar independentemente de como os dados são recebidos ou persistidos.
 
 2. **Portas** (interfaces): As portas são as interfaces que definem como os sistemas externos se comunicam com a lógica principal. Essas portas atuam como limites entre o núcleo e o mundo exterior. Existem dois tipos de portas:
@@ -119,6 +117,8 @@ A arquitetura hexagonal (arquitetura de portas e adaptadores) oferece várias va
 sistemas externos, como bancos de dados, APIs ou filas de mensagens. Esse desacoplamento permite um desenvolvimento mais rápido e maior colaboração.
 
 Embora a arquitetura hexagonal ofereça inúmeros benefícios, ela também apresenta certos desafios no design do sistema. Esses desafios precisam ser considerados cuidadosamente ao implementar essa arquitetura:
+
+<img width="1100" height="752" alt="0_IL8vujFMMgXa0Hsa" src="https://github.com/user-attachments/assets/62599d58-9641-4213-a3dd-8c68d6b98718" />
 
 1. Maior complexidade no início: a arquitetura hexagonal introduz camadas adicionais, como portas, adaptadores e serviços de aplicativos, o que pode tornar o projeto inicial mais complexo. Os desenvolvedores podem precisar escrever mais código clichê para criar interfaces (portas) e adaptadores, fazendo com que o sistema pareça mais complexo do que arquiteturas mais simples, especialmente para aplicativos pequenos ou diretos.
 
