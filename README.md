@@ -41,6 +41,8 @@ Visualmente, a arquitetura é representada por meio de dois hexágonos concêntr
 
 Assim, o nome hexagonal tem sua origem na figura acima. Cockburn justifica o uso de um hexágono do seguinte modo:
 
+<img width="1024" height="684" alt="slide_11" src="https://github.com/user-attachments/assets/b14c5808-15aa-42d6-9cb4-c35869d44f5c" />
+
 > **"** Cada face do hexágono representa um motivo pelo qual o sistema deve se comunicar com o mundo exterior. É por isso que são hexágonos concêntricos e não círculos concêntricos.
 
 Dentre os motivos que requerem comunicação com o mundo exterior podemos citar os seguintes: interagir com seus usuários (por meio de algum tipo de interface, seja ela gráfica, Web, mobile, terminal, etc), persistir informações, enviar informações para outros sistemas, etc.
@@ -68,6 +70,8 @@ Eles recebem chamadas de métodos vindas de fora do sistema e encaminham essas c
 Eles recebem chamadas vindas de dentro do sistema, isto é, das classes de domínio, e as direcionam para um sistema externo, tais como um banco de dados, um outro sistema da organização ou mesmo de terceiros.
 
 A arquitetura hexagonal desempenha um papel significativo no projeto do sistema por vários motivos, particularmente no contexto de capacidade de manutenção, escalabilidade e flexibilidade. Aqui estão as principais razões pelas quais é importante:
+
+<img width="506" height="457" alt="unnamed" src="https://github.com/user-attachments/assets/1c39f8d9-2448-4bb8-a845-671ded8c811b" />
 
 - **Separação de preocupações**: a arquitetura impõe uma separação clara entre a lógica de negócios principal e os sistemas externos, como bancos de dados, APIs ou interfaces de usuário. Ao isolar o núcleo, ele garante que a lógica de negócios não esteja entrelaçada com a infraestrutura ou preocupações externas. Isso leva a um código mais limpo e modular, mais fácil de entender e manter.
 
