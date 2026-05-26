@@ -63,7 +63,7 @@ Daí a necessidade de componentes localizados no hexágono mais externo da arqui
 
 Eles recebem chamadas de métodos vindas de fora do sistema e encaminham essas chamadas para métodos adequados das portas de entrada.
 
-<img src="https://github.com/user-attachments/assets/b73cb80b-0150-468e-850f-8bd59658e9cb" align="right" height="377">
+<img width="972" height="927" alt="a1lup0ewj49dtu28q4d5" src="https://github.com/user-attachments/assets/fb00ac74-4643-4f32-8f29-609611514b18" />
 
 Eles recebem chamadas vindas de dentro do sistema, isto é, das classes de domínio, e as direcionam para um sistema externo, tais como um banco de dados, um outro sistema da organização ou mesmo de terceiros.
 
