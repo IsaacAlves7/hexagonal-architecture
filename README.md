@@ -146,6 +146,8 @@ Embora a arquitetura hexagonal ofereça inúmeros benefícios, ela também apres
 
 A implementação da arquitetura hexagonal requer uma estratégia cuidadosa para garantir que o sistema mantenha seus benefícios de flexibilidade, desacoplamento e capacidade de manutenção. Aqui estão as principais estratégias para implementar com sucesso a arquitetura hexagonal no projeto do sistema:
 
+<img width="2278" height="1755" alt="blob" src="https://github.com/user-attachments/assets/40cdce7a-8b80-4b17-9ed4-fc44968a0462" />
+
 1. Comece com a Lógica de Domínio Principal (Entidades): Defina a lógica de negócios principal: comece implementando a lógica de negócios principal (entidades). A parte central da Arquitetura Hexagonal é o modelo de domínio, que deve permanecer independente de sistemas externos, como bancos de dados, APIs ou interfaces de usuário. Isso garante que as regras de negócios estejam no centro do sistema e não sejam afetadas por alterações na infraestrutura.
 
 2. Foco no DDD (Design Controlado por Domínio): o uso dos princípios do DDD ajuda a moldar um modelo de domínio avançado que reflete os requisitos de negócios. Isso garante que a lógica principal seja autossuficiente e possa ser reutilizada em diferentes contextos.
