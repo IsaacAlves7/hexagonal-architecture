@@ -19,11 +19,13 @@ Ao redor do núcleo estão adaptadores que interagem com componentes externos. E
 
 A arquitetura hexagonal foi inventada por Alistair Cockburn em 2005, em uma tentativa de evitar armadilhas estruturais conhecidas no design de software orientado a objetos (OOP), como dependências indesejadas entre camadas e a contaminação do código da interface do usuário com a lógica de negócios. O conceito de Arquitetura Hexagonal foi proposto por Alistair Cockburn, em meados dos anos 90, em um artigo postado na primeira wiki que foi desenvolvida, chamada WikiWikiWeb (cujos artigos tratavam principalmente de temas relacionados com Engenharia de Software).
 
+<img width="2774" height="1582" alt="1_Bpi4Eynu38ayH-8ZE3cSKQ" src="https://github.com/user-attachments/assets/0a8ddc7c-628e-4569-804a-44ff990c38eb" />
+
 Os objetivos de uma Arquitetura Hexagonal são parecidos com os de uma Arquitetura Limpa. Mas, para reforçar, a ideia é construir sistemas que favorecem reusabilidade de código, alta coesão, baixo acoplamento, independência de tecnologia e que são mais fáceis de serem testados. A arquitetura hexagonal, também conhecida como arquitetura de portas e adaptadores, pode ser combinada com outras arquiteturas e designs de software para criar sistemas mais robustos e flexíveis como a Arquitetura em Camadas (N-Tier/ Layered Architecture), SOA - Arquitetura Orientada a Serviços, Microservices, DDD - Domain-Driven Design, Arquitetura Limpa e CQRS - Command Query Responsibility Segregation.
 
 Uma <a href="https://medium.com/codex/clean-architecture-for-dummies-df6561d42c94">Arquitetura Hexagonal</a> divide as classes de um sistema em dois grupos principais:
 
-<img src="https://github.com/user-attachments/assets/a83de780-4af3-4860-9433-381fce97116e" align="right" height="377">
+<img height="377" align="right" src="https://github.com/user-attachments/assets/02b41276-2062-4fc5-9ba0-11e3214c3753" />
 
 - **Classes de domínio**, isto é, diretamente relacionadas com o negócio do sistema.
 
@@ -45,7 +47,7 @@ Dentre os motivos que requerem comunicação com o mundo exterior podemos citar 
 
 Em uma Arquitetura Hexagonal, o termo **porta** (port) designa as interfaces usadas para comunicação com as classes de domínio (veja que interface aqui significa interface de programação; por exemplo, uma interface de Java).
 
-<img src="https://github.com/IsaacAlves7/DevSecOps/assets/61624336/34885cef-b23b-4b69-8bf1-307006294132" align="right" height="377">
+<img width="729" height="464" alt="PortsAndAdapters" src="https://github.com/user-attachments/assets/d7f956c4-0b34-4ce9-9e44-c11c47f59d72" />
 
 Existem dois tipos de portas:
 
