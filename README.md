@@ -142,6 +142,10 @@ Embora a arquitetura hexagonal ofereça inúmeros benefícios, ela também apres
 
 <img width="1100" height="752" alt="0_IL8vujFMMgXa0Hsa" src="https://github.com/user-attachments/assets/62599d58-9641-4213-a3dd-8c68d6b98718" />
 
+Na imagem seguinte, podemos ver uma aplicação mais completa desta arquitetura: Como você pode perceber, não é tão simples assim, e precisaria de muitas páginas para te explicar detalhadamente por aqui, mas não se preocupe, vou te ajudar!
+
+(A imagem mostra um diagrama da arquitetura hexagonal completa, com "Primary/Driving Adapters" à esquerda e "Secondary/Driven Adapters" à direita, e as camadas concêntricas: Ports, Application Layer/App Services, Domain Services, Domain Layer/Domain Model, formando o "Application Core", cercado por elementos como HTTP, CLI, Web server, Message Bus, filas, adaptadores de e-mail, ORM, MySQL, SQLite etc.)
+
 1. Maior complexidade no início: a arquitetura hexagonal introduz camadas adicionais, como portas, adaptadores e serviços de aplicativos, o que pode tornar o projeto inicial mais complexo. Os desenvolvedores podem precisar escrever mais código clichê para criar interfaces (portas) e adaptadores, fazendo com que o sistema pareça mais complexo do que arquiteturas mais simples, especialmente para aplicativos pequenos ou diretos.
 
 2. Curva de aprendizado: Para equipes não familiarizadas com a arquitetura, pode haver uma curva de aprendizado íngreme. Entender como estruturar o sistema usando portas, adaptadores e a separação de preocupações pode levar tempo, e os desenvolvedores precisam se familiarizar com novos padrões e princípios de design. Isso pode retardar o processo de desenvolvimento inicialmente.
