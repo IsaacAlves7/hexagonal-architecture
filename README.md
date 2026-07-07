@@ -11,6 +11,14 @@ A **arquitetura hexagonal** é um design de software, também conhecida como Arq
 
 A Arquitetura Hexagonal, também conhecida como Arquitetura de Portas e Adaptadores, isola dependências, tornando mais fácil a criação de testes unitários e de integração mais robustos e confiáveis. 
 
+Os objetivos de uma Arquitetura Hexagonal são parecidos com os de uma Arquitetura Limpa, mas, para reforçar, a ideia é construir sistemas que favorecem reusabilidade de código, alta coesão, baixo acoplamento, independência de tecnologia e que são mais fáceis de serem testados.
+
+Uma Arquitetura Hexagonal divide as classes de um sistema em dois grupos principais:
+
+**Classes de domínio**, isto é, diretamente relacionadas com o negócio do sistema.
+
+**Classes relacionadas com infraestrutura**, tecnologias e responsáveis pela integração com sistemas externos (tais como bancos de dados).
+
 A imagem representa visualmente essa arquitetura, colocando as **entidades principais** (lógica de negócios) no centro do sistema, protegidas de dependências externas, como bancos de dados, APIs e filas de mensagens. O **núcleo** se comunica com o mundo exterior por meio de **portas** (interfaces), que atuam como limites que definem o que o sistema central espera em relação à entrada e saída.
 
 A arquitetura Hexagonal, também conhecida como Arquitetura de Portas e Adaptadores, foca em isolar a lógica central da aplicação (domínio) de detalhes de implementação externos, propõe separar o núcleo (core) da aplicação (domínio) das interfaces externas (como UI, banco de dados, APIs) através de portas (interfaces) e adaptadores (implementações). 
